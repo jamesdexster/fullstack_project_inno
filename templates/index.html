@@ -14,7 +14,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>DayZ Update 1.18</h5>
               <p>The has time come for update 1.18 to be released to a stable branch. We know you all couldn't wait for the explosive content of this update.</p>
-              <button class="homepage-buttons"><a href="{{ url_for('my_view.updates')}}">Read More</button></a>
+              <a class ="read_more" href="{{ url_for('my_view.updates')}}" >Read More</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -22,7 +22,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Community FAQ - July 2022</h5>
               <p>We recieved alot of questions this month, so let's dive right into some of our favourites</p>
-              <button class="homepage-buttons"><a href="{{ url_for('my_view.faq')}}" >Read More</button></a>
+              <a class ="read_more" href="{{ url_for('my_view.faq')}}" >Read More</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -30,7 +30,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>1.18 Experimental Release</h5>
               <p>We're excited to announce that the experimental build of update 1.18 is now live on Steam and Xbox</p>
-              <button class="homepage-buttons"><a href="{{ url_for('my_view.updates')}}" >Read More</button></a>
+              <a class ="read_more" href="{{ url_for('my_view.updates')}}" >Read More</a>
             </div>
           </div>
         </div>
@@ -44,5 +44,50 @@
         </button>
       </div>
 </div>
+<br>
+<a class="twitter-timeline" data-lang="en" data-width="500" data-height="450" data-theme="dark" href="https://twitter.com/DayZ?ref_src=twsrc%5Etfw">Tweets by DayZ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card1">
+        <img src="../static/images/homepage_img_1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card2">
+        <img src="../static/images/homepage_img_2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card3">
+        <img src="../static/images/homepage_img_3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card4">
+        <img src="../static/images/homepage_img_4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 {% endblock %}

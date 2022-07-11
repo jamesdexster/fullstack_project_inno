@@ -7,13 +7,13 @@ body {
     display: none;
 }
 
-@media (orientation:landscape) {
+@media (min-width: 766px){
     .desktop {
         display:inline-block;
     }
 }
 
-@media (orientation:portrait) {
+@media (max-width: 766px) {
     .mobile {
         display: inline-block;
     }
@@ -29,8 +29,26 @@ body {
 
 a {
     text-decoration: none;
+    font-size: larger;
 }
 
-.homepage-buttons {
-    color: black;
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+.twitter-timeline {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.card1, .card2, .card3, .card4 {
+    margin-top: 2em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
