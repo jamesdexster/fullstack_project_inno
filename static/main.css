@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.desktop, .mobile {
+    display: none;
+}
+
+@media (orientation:landscape) {
+    .desktop {
+        display:inline-block;
+    }
+}
+
+@media (orientation:portrait) {
+    .mobile {
+        display: inline-block;
+    }
+}
+
+.dayz-logo-small {
+    height: 50px;
+}
+
+.navbar-nav {
+    padding-left: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.homepage-buttons {
+    color: black;
+}
