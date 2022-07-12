@@ -11,7 +11,7 @@ def updates():
     return render_template("updates.html")
 
 @my_view.route('/videos')
-def trailers():
+def videos():
     return render_template("videos.html")
 
 @my_view.route('/faq')
