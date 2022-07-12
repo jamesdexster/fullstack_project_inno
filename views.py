@@ -10,9 +10,9 @@ def index():
 def updates():
     return render_template("updates.html")
 
-@my_view.route('/trailers')
+@my_view.route('/videos')
 def trailers():
-    return render_template("trailers.html")
+    return render_template("videos.html")
 
 @my_view.route('/faq')
 def faq():

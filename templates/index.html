@@ -44,17 +44,17 @@
         </button>
       </div>
 </div>
-<br>
-<a class="twitter-timeline" data-lang="en" data-width="500" data-height="450" data-theme="dark" href="https://twitter.com/DayZ?ref_src=twsrc%5Etfw">Tweets by DayZ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="tt-1">
+<a class="twitter-timeline" data-lang="en" data-width="500" data-height="880" data-theme="dark" href="https://twitter.com/DayZ?ref_src=twsrc%5Etfw">Tweets by DayZ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
   <div class="row">
     <div class="col-sm-6">
       <div class="card1">
         <img src="../static/images/homepage_img_1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">DayZ Update 1.18</h5>
+          <p class="card-text">The has time come for update 1.18 to be released to a stable branch. We know you all couldn't wait for the explosive content of this update.</p>
+          <a href="{{ url_for('my_view.updates')}}" class="btn btn-primary">Read More</a>
         </div>
       </div>
     </div>
@@ -62,9 +62,9 @@
       <div class="card2">
         <img src="../static/images/homepage_img_2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Community FAQ - July 2022</h5>
+          <p class="card-text">We recieved alot of questions this month, so let's dive right into some of our favourites.</p>
+          <a href="{{ url_for('my_view.faq')}}" class="btn btn-primary">Read More</a>
         </div>
       </div>
     </div>
@@ -72,9 +72,9 @@
       <div class="card3">
         <img src="../static/images/homepage_img_3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">1.18 Experimental Release</h5>
+          <p class="card-text">We're excited to announce that the experimental build of update 1.18 is now live on Steam and Xbox</p>
+          <a href="{{ url_for('my_view.updates')}}" class="btn btn-primary">Read More</a>
         </div>
       </div>
     </div>
@@ -82,12 +82,12 @@
       <div class="card4">
         <img src="../static/images/homepage_img_4.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Join Us - The Divison</h5>
+          <p class="card-text">Come and join our faction via Discord. Xbox players only!</p>
+          <a href="https://discord.gg/2nu96bM4" class="btn btn-primary" target="_blank">Join Us</a>
         </div>
       </div>
     </div>
   </div>
-
+  <footer><p>&copy iDayZ | Inspired by:<a href="https://dayz.com/" rel="dayzlink" target="_blank"> www.dayz.com</a></p></footer>
 {% endblock %}

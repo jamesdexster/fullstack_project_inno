@@ -1,4 +1,110 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<br>
+<br>
+<container class="main-title-updates">List Of Stable Changelogs</container>
+<br>
+<br>
+<div class="tt-2">
+    <a class="twitter-timeline"  data-lang="en" data-width="500" data-height="2000" data-theme="dark" href="https://twitter.com/DayZ?ref_src=twsrc%5Etfw">Tweets by DayZ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<nav id="navbar-example2" class="navbar bg-light px-3">
+    <a class="navbar-brand" href="#">v1.17.154732 (19 April 2022)</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">Added</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Fixed</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading3">Changed</a>
+      </li>
+  </nav>
+  <div class="nav-content">
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <h4 id="scrollspyHeading1">Added</h4>
+    <ul>
+        <li>Savanna rifle</li>
+        <li>Longhorn pistol</li>
+        <li>P1 pistol</li>
+        <li>Craft-able Spear (Bone & Stone head variants)</li>
+        <li>Pitchfork</li>
+        <li>Pitchfork</li>
+        <li>Cleaver</li>
+        <li>Meat tenderizer</li>
+        <li>Kitchen timer</li>
+        <li>Craft-able Fireplace stand</li>
+        <li>Brooms can be lit and used as a torch</li>
+        <li>Improvised clothes from rags</li>
+        <li>Improvised Rope Belt</li>
+        <li>Improvised gas mask filter</li>
+        <li>Gas mask filters can now be refilled with charcoal tablets</li>
+        <li>Additional sensitivity settings (camera, aiming)</li>
+        <li>Cookware is slowly getting damaged by being used</li>
+        <li>Gas mask filters get damaged while in use</li>
+        <li>Voice activation setting for VOIP</li>
+        <li>Ability to go back and forth through multiple actions on the same item</li>
+        <li>New point of interest on Livonia</li>
+    </ul>
+    <h4 id="scrollspyHeading2">Fixed</h4>
+    <ul>
+        <li>Gear could not be added to other player's inventories</li>
+        <li>The sound of hitting an obstacle with a vehicle while reversing wasn't played</li>
+        <li>Dropped items were pushed upwards in certain situations</li>
+        <li>During punching the player would turn sideways in some situations</li>
+        <li>The sound of the Sarka 120 engine came from the front, whereas the engine is in the back</li>
+        <li>Shelters weren't build-able on some places</li>
+        <li>A burned-out fireplace is no longer producing light</li>
+        <li>Canceling activation of the bear trap and landmine caused errors</li>
+        <li>Fixed rendering exploits related to buildings</li>
+        <li>The visual effect of the contaminated area partly persisted after it was despawned</li>
+        <li>Focus zoom briefly reset during several actions in the 1st person</li>
+        <li>Hair clipped with NVG head strap on female characters</li>
+        <li>An incorrect texture of ruined wheels caused a server error on restart</li>
+        <li>Issues with object occlusion on a military guardhouse</li>
+        <li>Players could climb through closed windows on some buildings</li>
+        <li>The player was able to pick up the fire barrel while items were attached to it</li>
+        <li>The sound of starting/stopping engine was not present for other players</li>
+        <li>Sound of opening or closing vehicle doors was not present for other players</li>
+        <li>The sound of turning on/off the alarm clock wasn't audible for other players</li>
+        <li>A staircase handrail in one of the city house blocks was missing a collision</li>
+        <li>The attachment icon didn't correctly reflect attached optics and rails on weapons</li>
+        <li>Attaching more nails to the flag pole caused errors</li>
+        <li>Sharpened wooden sticks caused errors when damaged</li>
+        <li>Filtering server by favorited gives error: 9 in server browser</li>
+        <li>Traps did not react to vehicles</li>
+        <li>Headtracking TrackIR didn't work</li>
+        <li>Fixed several environment issues on Chernarus and Livonia</li>
+        <li>Certain gestures would make the character float above the ground when executed in prone</li>
+        <li>Light and heavy melee attack combinations would sometimes result in too much damage</li>
+        <li>Sound of ear ringing caused by the flash grenade could get stuck at some situations</li>
+        <li>Ruined Zmijovka hat didn't properly reflect its state</li>
+        <li>Mouse cursor was invisible in the respawn menu</li>
+    </ul>
+    <h4 id="scrollspyHeading3">Changed</h4>
+    <ul>
+        <li>Reworked Nizhnoye village on Chernarus</li>
+        <li>Adding a favorite server when already at max (25) will throw an error instead of removing a random favorite</li>
+        <li>Microphone now continues to listen while the player is tabbed out, but only if option "Graphics and sound" is set in the "Update in background" option</li>
+        <li>VOIP push-to-talk mode now has a release delay of 0.5 seconds to prevent voice cutouts</li>
+        <li>All heat sources are now emitting heat</li>
+        <li>Sensitivity settings is now exponential instead of linear</li>
+        <li>Bark can now be harvested with axes</li>
+        <li>Drain and pour liquid actions are now properly separated</li>
+        <li>Adjusted the wolf model to allow a more precise headshot</li>
+        <li>The burning duration of torches now correctly depends on the amount of fuel</li>
+        <li>Food can be baked in a cookware even without lard or water</li>
+        <li>Food looses its quantity when cooked in a cookware even without lard or water</li>
+        <li>Weapon sway increases dramatically while the character is rolling</li>
+        <li>Fireplaces start heating up the player character faster now</li>
+        <li>Position of the light source for Sarka 120 when only a single headlight is on was set to the proper position</li>
+        <li>Players are no longer able to get into a vehicle while holding a heavy item</li>
+        <li>Stone knifes can no longer be sharpened with a sharpening stone</li>
+        <li>Action inputs will be prioritized over inventory actions (e.g. climbing a ladder before dropping your item in hands)</li>
+        <li>Updated the game credits</li>
+    </ul>
+  </div>
+</div>
+<br>
 {% endblock %}

@@ -7,9 +7,27 @@ body {
     display: none;
 }
 
-@media (min-width: 766px){
-    .desktop {
-        display:inline-block;
+@media (max-width:766px) {
+    .tt-2 {
+        display: none !important;
+    }
+}
+
+@media (max-width:1100px) {
+    .tt-2 {
+        width: 50% !important;
+        margin-left: 2em !important;
+    }
+}
+@media (max-width:1000px) {
+    .tt-1 {
+        display: none !important;
+    }
+}
+
+@media (max-width:766px) {
+    .tt-1 {
+        width: 100% !important;
     }
 }
 
@@ -21,6 +39,10 @@ body {
 
 .dayz-logo-small {
     height: 50px;
+}
+
+.navbar {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.384);
 }
 
 .navbar-nav {
@@ -41,14 +63,85 @@ h1 {
     font-size: 15px;
 }
 
-.twitter-timeline {
+.tt-1 {
     display: flex;
-    flex-direction: column;
     float: right;
+    margin-top: 2em;
+    margin-right: 2em;
 }
 
 .card1, .card2, .card3, .card4 {
-    margin-top: 2em;
-    background-color: rgb(0, 0, 0);
+    margin: 2em;
+    background-color: rgba(50, 50, 50, 0.384);
     color: rgb(255, 255, 255);
+}
+
+.card-body {
+    margin: 2em;
+}
+
+.btn {
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: black;
+    height: 2.5em;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+}
+
+footer a{
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 2px;
+    font-size: smaller;
+}
+
+.tt-2 {
+    display: flex;
+    float: right;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+
+.updates-title container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+container {
+    border-bottom: 5px solid rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+#navbar-example2 {
+    background-color: black !important;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item {
+    margin-top: 1em;
+}
+
+.main-title-updates {
+    margin-left: 0.5em;
+}
+
+.t-card {
+    background-color: rgba(50, 50, 50, 0.384);
+    margin: 2em;
 }

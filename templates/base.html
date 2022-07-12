@@ -18,7 +18,7 @@
     </span>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-        <img class="dayz-logo-small" src="../static/images/dayz_logo_small.png" alt="small_dayz_logo">
+        <a href="{{ url_for('my_view.index')}}"><img class="dayz-logo-small" src="../static/images/dayz_logo_small.png" alt="small_dayz_logo"></img></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +26,7 @@
             <div class="navbar-nav">
                 <a class="nav-link active" href="{{ url_for('my_view.index')}}">Home</a>
                 <a class="nav-link" href="{{ url_for('my_view.updates')}}">Updates</a>
-                <a class="nav-link" href="{{ url_for('my_view.trailers')}}">Trailers</a>
+                <a class="nav-link" href="{{ url_for('my_view.videos')}}">Videos</a>
                 <a class="nav-link" href="{{ url_for('my_view.faq')}}">FAQ</a>
                 <a class="nav-link" href="{{ url_for('my_view.contact')}}">Contact Us</a>
             </div>
