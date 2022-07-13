@@ -178,8 +178,7 @@ h4 {
     margin: 2em;
     margin-left: 2em;
     border: 2px solid rgb(255, 128, 0);
-    height: 500px;
-
+    height: fit-content !important;
 }
 
 .row2 {
@@ -234,13 +233,13 @@ iframe {
 }
 
 .fa-facebook {
-    background: #ffffff;
+    background: white;
     color: rgb(0, 0, 0);
     width: 75px;
 }
 
 .fa-twitter {
-    background: #ffffff;
+    background: white;
     color: rgb(0, 0, 0);
     width: 75px;
     margin-left: 2em;
