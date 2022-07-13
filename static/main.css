@@ -7,12 +7,6 @@ body {
     display: none;
 }
 
-@media (max-width:766px) {
-    .tt-2 {
-        display: none !important;
-    }
-}
-
 @media (max-width:1100px) {
     .tt-2 {
         width: 50% !important;
@@ -25,17 +19,22 @@ body {
     }
 }
 
-@media (max-width:766px) {
-    .tt-1 {
-        width: 100% !important;
-    }
-}
-
 @media (max-width: 766px) {
     .mobile {
         display: inline-block;
     }
+    .row {
+        width: 100%;
+    }
+    .tt-1 {
+        width: 100% !important;
+    }
+    .tt-2 {
+        display: none !important;
+    }
 }
+
+/* INDEX / BASE */
 
 .dayz-logo-small {
     height: 50px;
@@ -66,6 +65,11 @@ p {
 
 h1 {
     font-size: 15px;
+
+}
+
+.device {
+    width: 100%;
 }
 
 .tt-1 {
@@ -83,6 +87,10 @@ h1 {
     height: 500px !important;
 }
 
+#carousel-align {
+    width: 100% !important;
+}
+
 .card-body {
     margin: 2em;
 }
@@ -92,6 +100,8 @@ h1 {
     background-color:rgb(255, 128, 0);
     border: black;
 }
+
+/* INDEX FAQ FOOTER */
 
 footer {
     background-color: black;
@@ -114,6 +124,8 @@ footer p {
     margin-top: 2px;
     font-size: smaller;
 }
+
+/* UPDATES */
 
 .tt-2 {
     display: flex;
@@ -143,7 +155,7 @@ h4 {
     color: rgb(255, 128, 0);
 }
 .nav-content {
-    margin-left: 2em !important;
+    margin-left: 1em !important;
 }
 
 .navbar-brand {
@@ -157,6 +169,9 @@ h4 {
 .main-title-updates {
     margin-left: 0.5em;
 }
+
+/* VIDEOS */
+
 
 .t-card {
     background-color: rgba(50, 50, 50, 0.384);
@@ -176,6 +191,8 @@ iframe {
     color:rgb(255, 128, 0);
 }
 
+/* FAQ */
+
 .accordion {
     margin-top: 2em;
 }
@@ -190,20 +207,7 @@ iframe {
     font-weight: bold;
 }
 
-.img-faq-bottom1, .img-faq-bottom2 {
-    height: 10em;
-    margin-top: 3em;
-}
-
-.img-faq-bottom1 {
-    float: left;
-    margin-left: 1em;
-}
-
-.img-faq-bottom2 {
-    float: right;
-    margin-right: 1em;
-}
+/* CONTACT */
 
 .fa {
     padding: 20px;
@@ -260,9 +264,26 @@ h6 p {
     font-weight: 200;
 }
 
+/* errors */
+
 .error-404-msg {
     margin-top: 2em;
     text-align: center;
     font-size: 40px;
     font-weight: 200;
+}
+
+.img-faq-bottom1, .img-faq-bottom2 {
+    height: 10em;
+    margin-top: 3em;
+}
+
+.img-faq-bottom1 {
+    float: left;
+    margin-left: 1em;
+}
+
+.img-faq-bottom2 {
+    float: right;
+    margin-right: 1em;
 }
