@@ -9,10 +9,17 @@ body {
 
 @media (max-width:1100px) {
     .tt-2 {
-        width: 50% !important;
+        width: 20% !important;
         margin-left: 2em !important;
     }
 }
+
+@media (min-width:766px) {
+    .card1, .card2, .card3, .card4 {
+        height: 500px !important;
+    }
+}
+
 @media (max-width:1000px) {
     .tt-1 {
         display: none !important;
@@ -24,7 +31,10 @@ body {
         display: inline-block;
     }
     .row {
-        width: 100%;
+        width: auto;
+    }
+    .col-sm-6 {
+        width: 100% !important;
     }
     .tt-1 {
         width: 100% !important;
@@ -41,7 +51,7 @@ body {
 }
 
 .navbar {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.384);
+    border-bottom: 2px solid rgb(255, 128, 0);
 }
 
 .navbar-nav {
@@ -53,14 +63,22 @@ a {
     color:rgb(255, 128, 0);
 }
 
+footer a:hover{
+    color: rgb(88, 88, 88);
+}
+
 .read-more {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    display: inline-block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
     color: rgb(255, 128, 0); /* ** */
+    border-top: 0.2px solid rgba(255, 255, 255, 0.4);
+    padding-top: 20px;
 }
 
 p {
     font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -76,7 +94,25 @@ h1 {
     display: flex;
     float: right;
     margin-top: 2em;
-    margin-right: 2em;
+    margin-right: 1em;
+}
+
+.d-none {
+    padding: 2em;
+    background-color: rgba(50, 50, 50, 0.6);
+    border: 1px solid rgb(255, 128, 0);
+}
+
+#carouselExampleInterval {
+    margin-bottom: 2em;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+.card-body h5 {
+    margin-bottom: 0.5em;
 }
 
 .card1, .card2, .card3, .card4 {
@@ -84,7 +120,6 @@ h1 {
     background-color: rgba(50, 50, 50, 0.384);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 128, 0);
-    height: 500px !important;
 }
 
 #carousel-align {
@@ -96,7 +131,6 @@ h1 {
 }
 
 .btn {
-    margin-bottom: 2em;
     background-color:rgb(255, 128, 0);
     border: black;
 }
@@ -155,7 +189,8 @@ h4 {
     color: rgb(255, 128, 0);
 }
 .nav-content {
-    margin-left: 1em !important;
+    margin-left: 0.5em !important;
+    margin-top: 2em;
 }
 
 .navbar-brand {
@@ -178,7 +213,7 @@ h4 {
     margin: 2em;
     margin-left: 2em;
     border: 2px solid rgb(255, 128, 0);
-    height: fit-content !important;
+    height: auto !important;
 }
 
 .row2 {
