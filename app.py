@@ -9,5 +9,4 @@ def page_not_found(e):
     return render_template("404.html", e=e)
 
 if __name__ == '__main__':
-    app.debug = True
-    app.run(host="0.0.0.0")
+    app.run(debug=True, port=8000)
